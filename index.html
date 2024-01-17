@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Video Landing Page</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/ionicons@7.2.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="pre-loader block">
+            <div class="loader-wrapper">
+                <div class="loader"></div>
+            </div>
+        </div>
+        <div class="sidebar-nav">
+            <div class="logo"><a href="#">Katova</a></div>
+            <ion-icon name="chevron-down-sharp"></ion-icon>
+        </div>
+        <div class="clipper-left">
+            <div class="loader-text">Katova</div>
+        </div>
+        <div class="clipper-right">
+            <div class="loader-text">Creative</div>
+        </div>
+        <div class="site-content">
+            <div class="site-nav">
+                <div class="site-logo"><a href="#">Creative</a></div>
+                <div class="menu-toggle">Menu</div>
+            </div>
+            <div class="video-container" id="video-container">
+                <video src="./assets/video/hero.mp4" loop muted autoplay></video>
+            </div>
+            <div class="play">
+                <div class="play-icon">
+                    <ion-icon name="play-sharp"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
